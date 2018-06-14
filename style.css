@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	font-family: 'Roland', sans-serif;
+	background-image: url(laptop.jpg);
+	background-size: cover;	
+	background-position: center;
+	text-align: center;
+}
+
+.container {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/*THIS GAVE ME SO MANY ISSUES, REMEMBER TO CHANGE DIRECTION*/
+	flex-direction:column;
+	height:100%;
+
+}
+
+.headliner {
+	font-family: 'Roland', sans-serif;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.button-class {
+	padding:5px;
+}
+
+.button {
+	color:white;
+	font-family: 'Roland', sans-serif;
+	background-color: #4F608F;
+	border: 2px solid #7986AC;
+	border-radius: 25px;
+	width:180px;
+	height:70px;
+	transition: all 1s;
+}
+
+.button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
